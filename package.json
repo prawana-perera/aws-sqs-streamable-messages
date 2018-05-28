@@ -1,0 +1,36 @@
+{
+  "name": "aws-sqs-streamable-messages",
+  "version": "1.0.0",
+  "description": "A demo project to receive AWS SQS messages as a readable stream.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prawana-perera/aws-sqs-streamable-messages.git"
+  },
+  "author": "Prawana Perera",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prawana-perera/aws-sqs-streamable-messages/issues"
+  },
+  "homepage": "https://github.com/prawana-perera/aws-sqs-streamable-messages#readme",
+  "keywords": [
+    "aws",
+    "sqs",
+    "stream",
+    "node"
+  ],
+  "dependencies": {
+    "aws-sdk": "^2.247.1",
+    "highland": "^2.13.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "cross-env": "^5.1.6",
+    "jest": "^23.0.0",
+    "sinon": "^5.0.10",
+    "sinon-chai": "^3.1.0"
+  }
+}
