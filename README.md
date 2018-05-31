@@ -20,7 +20,9 @@ The consumer is responsible for merely reading the events from the queue and inv
 
 This design allows us to parrallel process the events by horizontally scalling the workers. Reading the messages as a stream and performing worker invocations in a stream allows us to accomplish this in a asynchronous fashion and allows us to achieve high throughput.
 
-See [index.js](index.js) for the implementation using a streaming SQS messages. TBA.
+See [consumer.js](consumer.js) for the implementation using a streaming SQS messages:
+- consumeMessages - logic to consume the queue using streams
+- lambdaHandler - the lambda handler function which AWS Lambda environemnt calls
 
 ## TODO:
 - [ ] Implement this is pure NodeJS Stream to constrast
